@@ -13,13 +13,10 @@ ser = serial.Serial('/dev/tty.usbserial-DB00NI6A', baudrate=38400)  # Make sure 
 # time.sleep(1)
 
 # Send the next command (example: 'G1' in this case).
-ser.write(b'F1 P100 S255\r\n')
+ser.write(b'G0\r\n')
 
 # Add a delay of 1 second before sending the next command.
 time.sleep(1)
-
-# # Send the next command (example: 'G1' in this case).
-# ser.write(b'G1 O\r\n')
 
 # Close the serial port when done.
 ser.close()
