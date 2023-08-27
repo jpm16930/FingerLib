@@ -1,4 +1,18 @@
+# Trouble shooting
+
+If board isn't connectiong use cmd + shift + P and choose Arduino board manager
+Board type is Mega 2560 (Mega 2560)
+
+
+
 # Open Bionics - FingerLib.h
+
+https://openbionicslabs.com/obtutorials?offset=1453827045130&category=Tutorial
+
+https://openbionicslabs.com/obtutorials/artichoke-v1-2-firmware-user-guide
+
+https://openbionicslabs.com/obtutorials/ada-v1-assembly
+
 
 ## Description
 This library can be used to control up to 6 fingers, which allows control for an Open Bionics robotic hand (Ada, Brunel). Each finger is actuated using a Firgelli/Actuonix
